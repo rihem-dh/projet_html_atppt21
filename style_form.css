@@ -1,0 +1,74 @@
+body {
+  background-image: ;
+}
+.header {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ddeefb;
+  border-bottom-width: 0;
+  z-index: 100;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  font-family: Roboto, Arial;
+}
+.logo {
+  height: 65px;
+}
+.page {
+  background-color: rgb(236, 236, 183);
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  padding-top: 20px;
+  left: 400px;
+  font-family: Roboto, Arial;
+}
+.don {
+  display: flex;
+  align-content: center;
+}
+.submit {
+  background-color: #005ea8;
+  color: #fff;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 100px;
+}
+.submit :hover {
+  color: aquamarine;
+  cursor: pointer;
+}
+.image {
+  width: 1000px;
+  height: 700px;
+}
+.aider {
+  color: #005ea8;
+  font-family: Roboto, Arial;
+  font-size: 25px;
+  margin-right: 250px;
+}
+.merci {
+  color: #005ea8;
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.contacter {
+  color: #005ea8;
+  font-family: Roboto, Arial;
+  font-size: 15px;
+  margin-left: 100px;
+}
